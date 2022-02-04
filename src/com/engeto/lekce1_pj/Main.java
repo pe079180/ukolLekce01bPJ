@@ -4,26 +4,31 @@ import java.math.BigDecimal;
 
 public class Main {
 
+    //  missing ""
     public static void ukol1() {
         System.out.println("Hello world!");
     }
 
     public static void ukol2() {
+        //  missing ""
         String uzivatel = "Karel";
         System.out.println(uzivatel);
     }
 
     public static void ukol3() {
+        // string > int
         int pocetLekci = 10;
         System.out.println(pocetLekci);
     }
 
     public static void ukol4() {
+        //  10,0 > 10.0
         double cena = 10.0;
         System.out.println(cena);
     }
 
     public static void ukol5() {
+        //  double cena > BigDecimal cena + consequences
         BigDecimal cena = BigDecimal.valueOf(0);
         for (int i = 0; i < 10; i++) {
             //cena += 0.1;
